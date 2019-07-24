@@ -1,0 +1,49 @@
+/* 
+z-index untuk mengatur posisi menumpuk
+
+position: 
+-relative
+-absolute
+-fixed
+
+*/
+
+
+html
+{
+  margin: 0;
+  background-color: #5D3F6A;
+  padding: 10px;
+  height: 4000px;
+}
+body
+{
+  background-color: #F7CA18;
+  padding: 10px;
+  margin: 0;
+  position: relative;
+  top: 0; 
+}
+header
+{
+  background-color: #FFA400;
+  margin: 0;
+  position: fixed;
+  top:0;
+  left: 20px;
+  
+}
+nav
+{
+  background-color: #FFA400;
+  margin: 10px;
+  position: relative;
+  top: 10px;
+  
+}
+footer
+{
+  background-color: #FFA400;
+  position: fixed;
+  top: 0;
+}
